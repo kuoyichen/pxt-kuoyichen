@@ -1,6 +1,5 @@
 //NFU CSIE Makeblock packages (Programming eXperience Toolkit)
 
-
 //% weight=10 color=#3CB371 icon="\uf0ad" block="kuoyichen"
 
 namespace kuoyichen {
@@ -30,7 +29,7 @@ export enum PingUnit {
 }
 
 //% blockId=sonar_ping block="ping trig %trig|echo %echo|unit %unit"
-//% blockGap=2 weight=3 blockExternalInputs=true
+//% blockGap=2 weight=2 blockExternalInputs=true
 export function ping(trig: DigitalPin, echo: DigitalPin, unit: PingUnit, maxCmDistance = 500): number {
 	// send pulse
 	pins.setPull(trig, PinPullMode.PullNone);
