@@ -6,14 +6,14 @@ namespace kuoyichen {
 
 //計算長方形面積，並回傳
 //% blockId="areaOfRectangle" block="area of rectangle length %length|width %width"
-//% blockGap=2 weight=0 blockExternalInputs=true
+//% blockGap=5 weight=0 blockExternalInputs=true
 export function areaOfRectangle(length: number, width:number): number {
 	return length*width
 }
 
 //計算長方形面積，不回傳，只顯示在LED
 //% blockId="ledOfRectangle" block="show area of rectangle length %length|width %width"
-//% blockGap=2 weight=1
+//% blockGap=5 weight=1
 export function ledOfRectangle(length: number, width:number): void {
 	basic.showNumber(length*width)
 }
@@ -29,7 +29,7 @@ export enum PingUnit {
 }
 
 //% blockId=sonar_ping block="ping trig %trig|echo %echo|unit %unit"
-//% blockGap=2 weight=2 blockExternalInputs=true
+//% blockGap=5 weight=2 blockExternalInputs=true
 export function ping(trig: DigitalPin, echo: DigitalPin, unit: PingUnit, maxCmDistance = 500): number {
 	// send pulse
 	pins.setPull(trig, PinPullMode.PullNone);
