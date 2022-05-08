@@ -1,7 +1,7 @@
 {
-    "name": "tools",
+    "name": "kuoyichen",
     "version": "0.0.1",
-    "description": "這是專為測試用的micro:bit積木",
+    "description": "NFU CISE 微處理機課程",
     "license": "MIT",
     "dependencies": {
         "core": "*"
@@ -9,7 +9,7 @@
     "files": [
         "README.md",
         "main.ts",
-        "_locales/zh/tools-strings.json"
+        "_locales/zh/kuoyichen-strings.json"
     ],
     "public": true
 }

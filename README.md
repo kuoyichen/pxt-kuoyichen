@@ -1,16 +1,28 @@
-# tools
+# pxt-kuoyichen
+A self-devloped MakeCode package in microcontroller course
 
-這是專為測試用的micro:bit積木
+## Usage
+
+This package contains the self-devloped blocks
+
+```how to use
+put the source of blocks here
+```
+
+## More information
+
+provide more information
+
+```blocks
+to describe all devloped blocks
+
+```
 
 ## License
-
 MIT
 
 ## Supported targets
-
 * for PXT/microbit
-(The metadata above is needed for package search.)
 
-```package
-tools=github:lioujj/pxt-tools
-```
+## Code of Conduct
+This project has adopted the NFU CSIE
