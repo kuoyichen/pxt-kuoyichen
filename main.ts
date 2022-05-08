@@ -6,7 +6,7 @@ namespace kuoyichen {
 
 //計算長方形面積，並回傳
 //% blockId="areaOfRectangle" block="nnnnnnnnnnn %length|width %width"
-//% blockGap=50 weight=3 blockExternalInputs=true
+//% blockGap=50 weight=0 blockExternalInputs=true
 export function areaOfRectangle(length: number, width:number): number {
 	return length*width
 }
