@@ -1,7 +1,7 @@
 {
     "kuoyichen|block": "陳國益套件",
     "kuoyichen.ping|block": "啟動腳位 %trig |接收腳位 %echo| 測距單位 %unit",
-    "kuoyichen.areaOfRectangle|block": "長方形面積 |長度 %length |寬度 %width",
-    "kuoyichen.ledOfRectangle|block": "LED顯示長方形面積 |長度 %length |寬度 %width"
+    "kuoyichen.areaOfRectangle|block": "長方形面積 長度 %length |寬度 %width",
+    "kuoyichen.ledOfRectangle|block": "LED顯示長方形面積 長度 %length |寬度 %width"
 
 }
